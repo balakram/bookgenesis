@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000e7; /* Gray background color */
+            content: '';
+            background-image: url('about-background-image.jpg'); /* Background image */
+            background-size: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        body::before {
+            content: '';
+            background-image: url('about-background-image.jpg'); /* Background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.5; /* Adjust opacity to 50% */
+            z-index: -1; /* Push it behind other content */
+        }
+        /*-----------------------------------------------------Header Start-------------------------------------------*/
+        .header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            font-weight: 600;
+            }
+
+         .header .logo {
+            font-size: 24px;
+            }
+
+        .header .lower-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            }
+
+        .header .nav-buttons {
+            display: flex;
+            }
+            .header .nav-buttons a {
+                padding: 10px 25px;
+                background-color: #005d92;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                margin-left: 5px;
+                transition: all 0.3s ease 0s;
+                color: #fff; /* Text color */
+                font-weight: bold; /* Bold text */
+                text-transform: uppercase; /* Uppercase text */
+                text-decoration: none; /* Remove underline */
+                outline: none; /* Remove default focus outline */
+                }
+
+                .header .nav-buttons a:hover {
+                background-color: #004d7a; /* Darker background on hover */
+                }
+
+                .header .nav-buttons a:focus {
+                box-shadow: 0 0 0 3px rgba(0, 93, 146, 0.4); /* Add focus outline */
+                }
+
+            .header .nav-buttons a.active {
+                color: #ff5100; /* Change the color to indicate it's active */
+            }
+
+            /*-----------------------------------------------------Header Start-------------------------------------------*/
+            .container {
+            max-width: 800px;/* Adjust top margin to make space for the fixed header */
+            margin: 60px auto 0; 
+            padding: 10px;
+            opacity: 0.8; /* Adjust opacity to 50% */
+            position: relative; /* Add position relative */
+            z-index: 1; /* Ensure the container has a higher z-index than the navigation bar */
+            font-size: 25px;
+        }
+        h1 {
+            text-align: center;
+            color: #000000; /* White title color */
+            font-size: 52px; /* Font size 32px */
+            opacity: 100;
+            font-weight: 700;
+        }
+        h2 {
+            text-align: left;
+            color: #fff; /* White title color */
+            font-size: 35px; /* Font size 32px */
+            opacity: 100;
+            font-weight: 700;
+        }
+        ul {
+            color: #ffffff; /* White title color */
+            font-size: 24px; /* Font size 32px */
+            margin-bottom: 20px;
+        }
+        p {
+            color: #fff; /* White title color */
+            font-size: 24px; /* Font size 32px */
+            margin-bottom: 20px;
+        }
+
+                    /*-----------------------------------footer-------------------------------*/
+                    footer{
+                background-color: #000;
+                color: #fff;
+                padding: 100px 80px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            footer h3{
+                font-size: 48px;
+            }
+
+            footer .right{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 26px;
+            }
+
+            footer .right .links{
+                display: flex;
+                gap: 30px;
+            }
+
+            footer .right .links a{
+                color: #989898;
+                transition: color 0.3s ease;
+            }
+
+            footer .right .links a:hover{
+                color: #fff;
+            }
+
+            footer .right .social{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            footer .right .social i{
+                font-size: 30px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+
+            footer .right .social i:hover{
+                color: #304ffe;
+            }
+
+            footer .right p{
+                font-size: 13px;
+                color: #777;
+            }
+                
+                
+    </style>
+    
+</head>
+<header class="header">
+    <div class="lower-row">
+      <div class="logo"><img src="logo.png" alt="Site Logo" height="40"></div> <!-- Replace with your logo -->
+      <div class="nav-buttons">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a class="active" href="about-us.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </header>
+<body>
+    <div class="container">
+        <h1><u>Contact Us</u></h1>
+            <p>Welcome to <strong>Your Company Name</strong>, where we strive to [briefly describe your company's mission and values]. Founded [year], we have been dedicated to [your company's primary goal or purpose].</p>
+            
+            <p>At <strong>Your Company Name</strong>, we believe in [briefly describe your core beliefs or principles]. Our commitment to [specific aspect of your business, such as quality, customer service, sustainability, etc.] sets us apart in the industry.</p>
+            
+            <h2>Our Products/Services:</h2>
+            <ul>
+                <li>[Brief overview of product/service 1]</li>
+                <li>[Brief overview of product/service 2]</li>
+                <li>[Brief overview of product/service 3]</li>
+            </ul>
+            
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li><strong>Quality:</strong> We take pride in delivering products/services of the highest quality, ensuring customer satisfaction.</li>
+                <li><strong>Customer Service:</strong> Our dedicated team is always here to assist you, providing prompt and personalized support.</li>
+                <li><strong>Innovation:</strong> We are committed to staying ahead of the curve, continuously innovating and improving our offerings.</li>
+                <li><strong>Sustainability:</strong> [If applicable] We prioritize sustainability in all aspects of our business, striving to minimize our environmental footprint.</li>
+            </ul>
+            
+            <h2>Our Mission:</h2>
+            <p>[Share your company's mission statement, expressing your overarching purpose and goals.]</p>
+            
+            <h2>Get in Touch:</h2>
+            <p>We love hearing from our customers! Whether you have a question, feedback, or just want to say hello, feel free to reach out to us at [contact information]. Follow us on [social media platforms] to stay updated on the latest news and promotions.</p>
+            
+            <p>Thank you for choosing <strong>Your Company Name</strong>. We look forward to serving you and building a lasting relationship.</p>
+        </div>
+    </div>
+</body>
+    
+  <footer>
+    <h3>Create, Explore & Collect Abstract NFTs</h3>
+    <div class="right">
+        <div class="links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cooperation</a>
+            <a href="#">Sponsorship</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="social">
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-facebook-square'></i>
+            <i class='bx bxl-github'></i>
+        </div>
+        <p>Copyright © 2024 AsmrProg, All Rights Reserved.</p>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,256 @@
+/* Add your custom styles here */
+
+/* Custom styles */
+body {
+  
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    font-weight: 600;
+  }
+  
+  .header .upper-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    transition: top 0.3s;
+    background-color: #000000;
+  }
+  
+  .header .upper-row.hidden {
+    top: -100px;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+  }
+  
+  .header .social-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .social-links a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .header .social-links a:hover {
+    color: #ccc;
+  }
+  
+  .header .lower-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .header .nav-buttons {
+    display: flex;
+  }
+  
+  .header .nav-buttons a {
+    padding: 10px 25px;
+    background-color: #005d92;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.3s ease 0s;
+    color: #fff; /* Text color */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    text-decoration: none; /* Remove underline */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .header .nav-buttons a:hover {
+    background-color: #004d7a; /* Darker background on hover */
+  }
+  
+  .header .nav-buttons a:focus {
+    box-shadow: 0 0 0 3px rgba(0, 93, 146, 0.4); /* Add focus outline */
+  }
+  
+  
+  .hero-section {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d0858ee;
+    font-size: 24px;
+  }
+  h2{
+    color: #000000;
+    font-size: 24px;
+  }
+  
+  .hero-section::before {
+    content: '';
+    background-image: url('hero-background.jpg'); /* Replace with your image */ /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3; /* Adjust opacity to 50% */
+    z-index: -1; /* Push it behind other content */
+  }
+  
+  .hero-section .slide-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header .nav-buttons a.active {
+    color: #ff5100; /* Change the color to indicate it's active */
+  }
+  
+  /* Scroll to top button styles */
+  #scrollToTopBtn {
+    display: none; /* Initially hide the button */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    z-index: 999; /* Ensure it's above other content */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  #scrollToTopBtn:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
+  
+              /*-----------------------------------footer-------------------------------*/
+              footer{
+                background-color: #000;
+                color: #fff;
+                padding: 100px 80px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            footer h3{
+                font-size: 48px;
+            }
+
+            footer .right{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 26px;
+            }
+
+            footer .right .links{
+                display: flex;
+                gap: 30px;
+            }
+
+            footer .right .links a{
+                color: #989898;
+                transition: color 0.3s ease;
+            }
+
+            footer .right .links a:hover{
+                color: #fff;
+            }
+
+            footer .right .social{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            footer .right .social i{
+                font-size: 30px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+
+            footer .right .social i:hover{
+                color: #304ffe;
+            }
+
+            footer .right p{
+                font-size: 13px;
+                color: #777;
+            }
+                
+
+
+.container {
+    margin-top: 100px; /* Adjust margin as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; /* Adjust margin as needed */
+  }
+  
+  .column {
+    flex: 30%; /* Adjust width as needed */
+    max-width: 300px; /* Adjust max-width as needed */
+    padding: 0 15px; /* Adjust padding as needed */
+  }
+  
+  .book {
+    text-align: center;
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+  
+  .book img {
+    width: 100%;
+    max-width: 200px; /* Adjust max-width as needed */
+    height: auto;
+  }
+  
+  .book h3 {
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  .download-link {
+    display: block;
+    margin-top: 10px; /* Adjust margin as needed */
+    color: #007bff; /* Adjust color as needed */
+    text-decoration: none;
+  }
+  
+  .download-link:hover {
+    text-decoration: underline;
+  }
+  

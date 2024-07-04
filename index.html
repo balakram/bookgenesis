@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to  Book Genesis</h1>
+    <div id="verification-form" class="log-form">
+      <label for="code">Enter 8-Digit Verification Code:</label>
+      <input type="text" id="code" maxlength="8">
+      <button onclick="verifyCode()">Verify</button>
+      <button onclick="getCode()">GetCode</button>
+      <p id="error-message"></p>
+    </div>
+    <div id="main-page" style="display: none;">
+      <!-- Your landing page content goes here -->
+      <p>Congratulations! You've successfully entered the correct code.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
