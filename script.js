@@ -25,6 +25,6 @@ function getCode() {
     window.location.href = 'main-page.html'; // Change 'main-page.html' to the URL of your main page
   } else {
     var errorMessage = document.getElementById('error-message');
-    errorMessage.textContent = 'Contact to BALAKRAM TUDU.';
+    errorMessage.textContent = 'Verification Code sent to your email.';
   }
 }
