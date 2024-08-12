@@ -4,23 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
-     <link rel="apple-touch-icon" sizes="180x180" href="btlogo-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="btlogo-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to  Book Genesis</h1>
+    <h1>Welcome to Book Genesis</h1>
     <div id="verification-form" class="log-form">
       <label for="code">Enter 8-Digit Verification Code:</label>
-      <input type="text" id="code" maxlength="8">
+      <input type="text" id="code" maxlength="8" placeholder="12345678">
       <button onclick="verifyCode()">Verify</button>
-      <a href="https://drive.google.com/file/d/1_kh5IxnEFTdqcKZVOKrntz7AodgbNPw1/view?usp=sharing" class="btn btn-download"><button onclick="getCode()">GetCode</button>
-      </a> <p id="error-message"></p>
+      <a href="https://drive.google.com/file/d/1_kh5IxnEFTdqcKZVOKrntz7AodgbNPw1/view?usp=sharing" class="btn btn-download">Get Code</a>
+      <p id="error-message"></p>
     </div>
-    <div id="main-page" style="display: none;">
-      <!-- Your landing page content goes here -->
+    <div id="main-page" class="main-page" style="display: none;">
       <p>Congratulations! You've successfully entered the correct code.</p>
     </div>
   </div>
