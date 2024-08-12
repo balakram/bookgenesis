@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Genesis - Best Books collections</title>
+
+    <!---->
+    <link rel="apple-touch-icon" sizes="180x180" href="btlogo-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <!--l->
+  <link rel="shortcut icon" href=" " type="image/svg+xml">
+
+  <!--
+    -- custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="main-page.html" class="logo">
+                <img src="favicon-32x32.png" alt="Filmlane logo">
+            </a>
+
+            <button class="menu-open-btn" data-menu-open-btn>
+                <ion-icon name="reorder-two"></ion-icon>
+            </button>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+
+                    <!--<a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Filmlane logo">
+          </a>-->
+
+                    <button class="menu-close-btn" data-menu-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="./main-page.html" class="navbar-link ">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about-us.html" class="navbar-link">About us</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="navbar-link active">Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <article>
+
+            <!-- 
+        - #UPCOMING
+      -->
+
+            <section class="upcoming">
+                <div class="container">
+
+                    <div class="flex-wrapper">
+
+                        <div class="title-wrapper">
+                            <p class="section-subtitle">Enter your Name ,email , message . </p>
+
+                            <h2 class="h2 section-title">We'll Get Back To You. </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 
+        - #CTA
+      -->
+
+            <section class="cta">
+                <div class="container">
+
+                    <form action="" class="cta-form">
+                        <input type="text" name="from_name" id="from_name" class="email-field"required placeholder="Enter your Name"><br>
+
+                        <input type="email" name="senderemail" id="senderemail"class="email-field" required placeholder="Enter your email"><br>
+
+                        <input type="text" name="subject" id="subject"class="email-field"required placeholder="Enter your Subject" ><br>
+
+                        <textarea type="text" name="message" id="message" class="email-field" required placeholder="Enter your Message" ></textarea><br>
+                        <button type="submit"   id="button"  value="Send Email" class="cta-form-btn">Send</button>
+ 
+                </div> 
+                </form>
+            </section>
+
+        </article>
+    </main>
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="container">
+
+                        <p class="copyright">
+                            &copy; 2022 <a href="#">Book Genesis</a>. All Rights Reserved
+                        </p>
+
+                        <!--<img src="./assets/images/footer-bottom-img.png" alt="Online banking companies logo" class="footer-bottom-img">-->
+
+                    </div>
+                </div>
+    </footer>
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- 
+    - Email
+  -->
+    <!-- Email script -->
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('jN2kA5SUBh3OEAc9a')
+</script>
+    <script>
+const btn = document.getElementById('button');
+const messageDisplay = document.getElementById('message-display'); // Assuming you have an element with this ID
+
+document.getElementById('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    btn.value = 'Message Sent!';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_eaeto8m';
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+            btn.value = 'Send Email';
+            messageDisplay.textContent = 'Message Sent Successfully!'; // Display success message
+        }, (err) => {
+            btn.value = 'Send Email';
+            messageDisplay.textContent = 'Failed to send message. Please try again.'; // Display error message
+        });
+});
+
+    </script>
+
+
+    <!-- Emil script end -->
+</body>
+
+</html>
