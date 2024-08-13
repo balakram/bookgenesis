@@ -1287,7 +1287,24 @@ body.active { overflow: hidden; }
     bottom: 2px;
   }
 
+.cta-request-btn {
+  background: var(--eerie-black);
+  color: var(--citrine);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid var(--eerie-black);
+  padding: 15px 34px;
+  border-radius: 4px;
+  margin-inline: auto;
+  transition: var(--transition-1);
+}
 
+.cta-request-btn:is(:hover, :focus) {
+  background: var(--citrine);
+  color: var(--eerie-black);
+}
 
   /**
    * FOOTER
