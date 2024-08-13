@@ -508,7 +508,7 @@ body.active { overflow: hidden; }
   background-size: cover;
   background-position: center;
   min-height: 750px;
-  height: 100vh;
+  height: 1000lvh;
   max-height: 1000px;
   display: flex;
   justify-content: flex-start;
@@ -523,13 +523,12 @@ body.active { overflow: hidden; }
   font-size: var(--fs-4);
   font-weight: var(--fw-700);
   margin-bottom: 10px;
+  margin-top: 180px;
 }
 
 .hero-title { margin-bottom: 30px; }
 
 .hero-title > strong { color: var(--citrine); }
-
-
 
 
 
