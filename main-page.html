@@ -28,7 +28,7 @@
 </head>
 
 <body id="top">
-
+  <p id="success-message" class="section-subtitle">Congratulations! You've successfully entered the correct code.</p>
   <!-- 
     - #HEADER
   -->
@@ -488,10 +488,23 @@
     <ion-icon name="chevron-up"></ion-icon>
   </a>
 
+  <!-- 
+    - custom check for validate
+-->
 
-
-
-
+  <script>
+    // Check if the user is verified
+    if (localStorage.getItem('isVerified') !== btoa('verified')) {
+      // Redirect back to the verification page if not verified
+      window.location.href = 'index.html';
+    } else {
+      // Show the success message for 5 seconds and then hide it
+      const successMessage = document.getElementById('success-message');
+      setTimeout(() => {
+        successMessage.style.display = 'none';
+      }, 5000); // Hide the message after 5000 milliseconds (5 seconds)
+    }
+  </script>
   <!-- 
     - custom js link
   -->
