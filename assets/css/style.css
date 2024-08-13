@@ -789,7 +789,7 @@ body.active { overflow: hidden; }
   padding: 18px 32px;
   border-radius: 4px;
   box-shadow: 0 3px 4px hsla(0, 0%, 0%, 0.2);
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
 
 .cta-form-btn {
