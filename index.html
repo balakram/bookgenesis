@@ -14,13 +14,10 @@
     <h1>Welcome to Book Genesis</h1>
     <div id="verification-form" class="log-form">
       <label for="code">Enter 8-Digit Verification Code:</label>
-      <input type="text" id="code" maxlength="8" placeholder="12345678">
+      <input type="text" id="code" maxlength="8" placeholder="12345678" autofocus>
       <button onclick="verifyCode()">Verify</button>
       <a href="https://drive.google.com/file/d/1_kh5IxnEFTdqcKZVOKrntz7AodgbNPw1/view?usp=sharing" class="btn btn-download">Get Code</a>
       <p id="error-message"></p>
-    </div>
-    <div id="main-page" class="main-page" style="display: none;">
-      <p>Congratulations! You've successfully entered the correct code.</p>
     </div>
   </div>
   <script src="script.js"></script>
