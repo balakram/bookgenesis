@@ -1637,5 +1637,16 @@ body.active { overflow: hidden; }
   border-radius: 100px;
 }
 
+/* JavaScript */
+div.cursor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
 
 }
