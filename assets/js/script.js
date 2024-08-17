@@ -68,4 +68,16 @@ const moveCursor = function (pageX, pageY) {
   cursor.style.left = pageX + "px";
   cursor.style.top = pageY + "px";
 };
+/**
+ * arrow
+ */
+let arrow = document.getElementById("arrow");
 
+window.addEventListener("scroll", () => {
+  let position = window.scrollY;
+  // console.log(position);
+  if (position <= 5) {
+    arrow.classList.toggle("fade-in");
+    arrow.classList.toggle("fade-out");
+  }
+});
