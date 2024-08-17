@@ -1649,4 +1649,64 @@ div.cursor {
   transform: translate(-50%, -50%);
 }
 
+  /**arrow*/
+.arrow {
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  margin: auto;
+  transition: ease-in;
+  animation: bounce 1.5s infinite;
+}
+
+.arrow:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  width: 12px;
+  height: 12px;
+  border-left: 2px solid #fafafa;
+  border-bottom: 2px solid #fafafa;
+  transform: rotate(-45deg);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+.fade-in {
+  opacity: 1;
+  transition: 1s all ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: 1s all ease-out;
+}
+
+  
 }
