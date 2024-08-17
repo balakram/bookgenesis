@@ -1625,4 +1625,16 @@ body.active { overflow: hidden; }
     transform: rotate(-0.25turn);
   }
 
+  /* Scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#21d4fd, #b721ff);
+  border-radius: 100px;
+}
+
+
 }
