@@ -5,13 +5,13 @@
   <br />
   <br />
   
-  <img src="[https://balakram.github.io/balakramtudu/img/projects/project-4.png](https://balakram.github.io/btstudios/assets/img/btlogo.png)" />
+  <img src="[https://balakram.github.io/btstudios/assets/img/btlogo.png]" />
 
   <h2 align="center">Bookgenesi</h2>
 
   Bookgenesis is a fully responsive  website page, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/Bookgenesis/"><strong>➥ Live Demo</strong></a>
+  <a href="https://balakram.github.io/bookgenesis/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -19,13 +19,32 @@
 
 ### Demo Screeshots
 
-![Bookgenesis Desktop Demo](https://balakram.github.io/balakramtudu/img/projects/project-4.png")
+![Bookgenesis Desktop Demo]([https://balakram.github.io/balakramtudu/img/projects/project-4.png])
 
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+  # BookGenesis
+
+Welcome to **BookGenesis** – your go-to destination for downloading and reading the most popular books in PDF format.
+
+## Overview
+
+**BookGenesis** is a comprehensive repository where you can find a wide range of popular books in various genres. Whether you're into fiction, non-fiction, science, technology, or any other genre, this repository has something for everyone. The goal is to provide easy access to quality books, allowing users to download and read them at their convenience.
+
+## Features
+
+- 📚 **Extensive Collection:** A wide variety of popular books across different genres.
+- 📥 **Easy Downloads:** Download your favorite books in PDF format with a single click.
+- 🔍 **Search Functionality:** Easily find the books you’re looking for.
+- 📖 **User-Friendly Interface:** Navigate through the collection effortlessly.
+- 🌐 **Open Source:** Contributions are welcome to improve and expand the collection.
+
+## Getting Started
+
 
 ### Run Locally
 
@@ -34,18 +53,21 @@ To run **Bookgenesis** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/Bookgenesis.git
+sudo git clone https://github.com/balakram/bookgenesis.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/Bookgenesis.git
+git clone https://github.com/balakram/bookgenesis.git
 ```
 
 ### Contact
-
-If you want to contact with me you can reach me at [Website]([https://www.twitter.com/codewithsadee](https://balakram.github.io/balakramtudu/)).
+Contact
+If you have any questions or suggestions, feel free to reach out:
+Name: Balakram Tudu
+GitHub: balakram
+If you want to contact with me you can reach me at [Website]([https://balakram.github.io/balakramtudu/]).
 
 ### License
 
