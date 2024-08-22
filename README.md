@@ -3,7 +3,7 @@
   <br />
   <br />
   
-  <img src="https://balakram.github.io/btstudios/assets/img/btlogo.png" alt="BT Studios Logo" />
+  <img src="https://balakram.github.io/practicemode/btlogo-icon.png" alt="BT Studios Logo" />
 
   <h2 align="center">BookGenesis</h2>
 
@@ -54,16 +54,13 @@ sudo git clone https://github.com/balakram/bookgenesis.git
 ```
 
 ### Contact
-Contact
-If you have any questions or suggestions, feel free to reach out:
-Name: Balakram Tudu
-GitHub: balakram
-If you want to contact with me you can reach me at [Website]([https://balakram.github.io/balakramtudu/]).
-f you have any questions or suggestions, feel free to reach out:
 
-Name: Balakram Tudu
-GitHub: balakram
-Website: balakram.github.io
+If you have any questions or suggestions, feel free to reach out:
+
+- **Name:** Balakram Tudu
+- **GitHub:** [balakram](https://github.com/balakram)
+- **Website:** [balakram.github.io](https://balakram.github.io/balakramtudu/)
+
 
 
 ### License
