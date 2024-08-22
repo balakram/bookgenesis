@@ -1,11 +1,9 @@
 <div align="center">
-  
-
 
   <br />
   <br />
   
-  <img src="[https://balakram.github.io/btstudios/assets/img/btlogo.png]" />
+  <img href="https://balakram.github.io/btstudios/assets/img/btlogo.png" />
 
   <h2 align="center">Bookgenesi</h2>
 
