@@ -53,6 +53,12 @@ To run **BookGenesis** locally, use the following commands:
 sudo git clone https://github.com/balakram/bookgenesis.git
 ```
 
+#### Windows::
+
+```bash
+git clone https://github.com/balakram/bookgenesis.git
+```
+
 ### Contact
 
 If you have any questions or suggestions, feel free to reach out:
