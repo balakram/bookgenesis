@@ -3,11 +3,11 @@
   <br />
   <br />
   
-  <img href="https://balakram.github.io/btstudios/assets/img/btlogo.png" />
+  <img src="https://balakram.github.io/btstudios/assets/img/btlogo.png" alt="BT Studios Logo" />
 
-  <h2 align="center">Bookgenesi</h2>
+  <h2 align="center">BookGenesis</h2>
 
-  Bookgenesis is a fully responsive  website page, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+  BookGenesis is a fully responsive website page, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
   <a href="https://balakram.github.io/bookgenesis/"><strong>➥ Live Demo</strong></a>
 
@@ -15,9 +15,9 @@
 
 <br />
 
-### Demo Screeshots
+### Demo Screenshots
 
-![Bookgenesis Desktop Demo]([https://balakram.github.io/balakramtudu/img/projects/project-4.png])
+![BookGenesis Desktop Demo](https://balakram.github.io/balakramtudu/img/projects/project-4.png)
 
 ### Prerequisites
 
@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-  # BookGenesis
+# BookGenesis
 
 Welcome to **BookGenesis** – your go-to destination for downloading and reading the most popular books in PDF format.
 
@@ -43,21 +43,14 @@ Welcome to **BookGenesis** – your go-to destination for downloading and readin
 
 ## Getting Started
 
-
 ### Run Locally
 
-To run **Bookgenesis** locally, run this command on your git bash:
+To run **BookGenesis** locally, use the following commands:
 
-Linux and macOS:
+#### Linux and macOS:
 
 ```bash
 sudo git clone https://github.com/balakram/bookgenesis.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/balakram/bookgenesis.git
 ```
 
 ### Contact
@@ -66,6 +59,12 @@ If you have any questions or suggestions, feel free to reach out:
 Name: Balakram Tudu
 GitHub: balakram
 If you want to contact with me you can reach me at [Website]([https://balakram.github.io/balakramtudu/]).
+f you have any questions or suggestions, feel free to reach out:
+
+Name: Balakram Tudu
+GitHub: balakram
+Website: balakram.github.io
+
 
 ### License
 
