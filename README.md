@@ -19,12 +19,6 @@
 
 ![BookGenesis Desktop Demo](https://balakram.github.io/balakramtudu/img/projects/project-4.png)
 
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
 # BookGenesis
 
 Welcome to **BookGenesis** – your go-to destination for downloading and reading the most popular books in PDF format.
@@ -42,6 +36,12 @@ Welcome to **BookGenesis** – your go-to destination for downloading and readin
 - 🌐 **Open Source:** Contributions are welcome to improve and expand the collection.
 
 ## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 ### Run Locally
 
